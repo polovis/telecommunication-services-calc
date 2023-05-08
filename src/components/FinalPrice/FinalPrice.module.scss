@@ -5,7 +5,15 @@
   font-size: 1.5rem;
   color: $color-text-label;
 
-  margin-top: 10rem;
+  margin-top: 1rem;
+}
+
+.HorizontalLine {
+  height: 2px;
+  width: 20rem;
+  background-color: $color-text-label;
+
+  margin-top: 1rem;
 }
 
 .Label {
@@ -14,4 +22,5 @@
 
 .PromoInfo {
   width: 17rem;
+  color: white;
 }
