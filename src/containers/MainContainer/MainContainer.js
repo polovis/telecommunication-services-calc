@@ -26,13 +26,17 @@ const MainContainer = () => {
       </a>
 
       <div className={classes.Container}>
-        <Title />
-        <YearPicker
-          years={years}
-          selectedYear={selectedYear}
-          onHandleSelectYear={setSelectedYear}
-        />
-        <ProductsList offer={selectedOfferByYear}></ProductsList>
+        <header>
+          <Title />
+        </header>
+        <section>
+          <YearPicker
+            years={years}
+            selectedYear={selectedYear}
+            onHandleSelectYear={setSelectedYear}
+          />
+          <ProductsList offer={selectedOfferByYear}></ProductsList>
+        </section>
       </div>
     </div>
   );
