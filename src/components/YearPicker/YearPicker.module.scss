@@ -1,0 +1,45 @@
+@import "assets/style/_variable.scss";
+
+.YearPickerContainer {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin-top: 2rem;
+
+  .Label {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+  }
+
+  .Select {
+    width: auto;
+    background-color: $color-background;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: auto;
+
+    cursor: inherit;
+    line-height: inherit;
+
+    outline: none;
+
+    display: grid;
+    grid-template-areas: "select";
+    align-items: center;
+    position: relative;
+
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+
+    font-size: 1.25rem;
+    line-height: 1.1;
+
+    margin-left: 1rem;
+  }
+
+  .Select,
+  &::after {
+    grid-area: select;
+  }
+}

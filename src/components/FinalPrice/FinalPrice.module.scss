@@ -1,0 +1,17 @@
+@import "assets/style/_variable.scss";
+
+.PriceModul {
+  display: flex;
+  font-size: 1.5rem;
+  color: $color-text-label;
+
+  margin-top: 10rem;
+}
+
+.Label {
+  width: 15rem;
+}
+
+.PromoInfo {
+  width: 17rem;
+}

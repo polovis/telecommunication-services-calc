@@ -1,0 +1,15 @@
+.ProductDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Product {
+  width: 10em;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+
+.Price {
+  font-size: 1.25rem;
+}

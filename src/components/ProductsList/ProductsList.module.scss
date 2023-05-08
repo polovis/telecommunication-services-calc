@@ -1,0 +1,22 @@
+.ProductListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+
+  .Label {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+  }
+
+  .List {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.PriceModul {
+  display: flex;
+}
